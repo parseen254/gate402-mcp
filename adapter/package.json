@@ -1,0 +1,14 @@
+{
+  "name": "@ogenalabs/gate402-mcp",
+  "version": "0.1.0",
+  "description": "Public MCP adapter for the Ogena gate402 merchant checkout x402 API. Schemas and docs only: execution happens on the hosted endpoint, no product logic here.",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "gate402-mcp": "src/stdio.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.0",
+    "zod": "^3.24.0"
+  }
+}
