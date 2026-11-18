@@ -6,7 +6,7 @@ import { z } from 'zod';
 // Tool schemas mirror the hosted API exactly. Execution is NOT local:
 // handlers point callers at the paid HTTPS endpoint, which catalogs
 // never invoke during listing scans (they only call tools/list).
-const HOSTED = 'https://api.ogenalabs.com/api/gate402';
+const HOSTED = 'https://gate402-x402.parseen.workers.dev/api/gate402';
 const SKILL_URL = `${HOSTED}/skill.md`;
 
 const server = new McpServer({ name: 'gate402-x402', version: '0.1.0' });

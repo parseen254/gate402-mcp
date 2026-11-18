@@ -1,7 +1,7 @@
 {
-  "name": "@ogenalabs/gate402-mcp",
+  "name": "gate402-mcp",
   "version": "0.1.0",
-  "description": "Public MCP adapter for the Ogena gate402 merchant checkout x402 API. Schemas and docs only: execution happens on the hosted endpoint, no product logic here.",
+  "description": "Public MCP adapter for the gate402 merchant checkout x402 API. Schemas and docs only: execution happens on the hosted endpoint, no product logic here.",
   "license": "MIT",
   "type": "module",
   "bin": {

@@ -4,16 +4,16 @@ description: "Drop-in x402 checkout for merchants and AI agents. Issue buyer-fac
 version: 0.1.0
 price: "$0.01 per checkout creation, USDC"
 payment: x402 v2
-endpoint: https://api.ogenalabs.com/api/gate402
-schema: https://api.ogenalabs.com/api/gate402/docs/openapi.json
-mcp: https://api.ogenalabs.com/api/gate402/mcp
-demo: https://api.ogenalabs.com/api/gate402/demo
+endpoint: https://gate402-x402.parseen.workers.dev/api/gate402
+schema: https://gate402-x402.parseen.workers.dev/api/gate402/docs/openapi.json
+mcp: https://gate402-x402.parseen.workers.dev/api/gate402/mcp
+demo: https://gate402-x402.parseen.workers.dev/api/gate402/demo
 ---
 
 # gate402 — drop-in x402 checkout
 
 Issue payment terms through us, settle with your own wallet. Buyers pay
-the merchant address directly in USDC (Base or Solana). Ogena never
+the merchant address directly in USDC (Base or Solana). gate402 never
 touches buyer funds.
 
 ## Endpoints
@@ -37,5 +37,5 @@ touches buyer funds.
 3. Buyer signs; their wallet pays `terms.payTo` (your address).
 4. Call verify with the buyer's `paymentSignature`; on `paid`, fulfill.
 
-Ogena's fee covers terms issuance only. Unknown checkout ids are never
+gate402's fee covers terms issuance only. Unknown checkout ids are never
 charged for: verify on an unknown id returns 404 without settlement.

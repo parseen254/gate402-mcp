@@ -1,9 +1,9 @@
 # gate402-mcp
 
-Public adapter plus docs for the Ogena gate402 merchant-checkout x402 API for merchants and AI agents.
+Public adapter plus docs for the gate402 merchant-checkout x402 API for merchants and AI agents.
 
-- Live API: `https://api.ogenalabs.com/api/gate402` ($0.01 per checkout, verify free)
-- Demo storefront: `https://api.ogenalabs.com/api/gate402/demo`
+- Live API: `https://gate402-x402.parseen.workers.dev/api/gate402` ($0.01 per checkout, verify free)
+- Demo storefront: `https://gate402-x402.parseen.workers.dev/api/gate402/demo`
 - Agent skill: [`docs/SKILL.md`](docs/SKILL.md)
 
 ## Layout
